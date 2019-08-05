@@ -4,7 +4,7 @@
 
 In order to built this project you need to download and install [Android Studio](http://developer.android.com/sdk/index.html). You will then need to install the [Android NDK](https://developer.android.com/studio/projects/add-native-code.html#download-ndk).
 
-Then simply download the latest release: <https://github.com/Lauszus/FaceRecognitionApp/releases/download/1.2.3/FaceRecognitionApp-1.2.3.zip> and open the project in Android Studio.
+Then simply download the latest release: <https://github.com/jamenenedez/people-recognizer.git> and open the project in Android Studio.
 
 ## Advanced build instructions
 
@@ -13,7 +13,7 @@ The following instructions are meant for advanced users who wants to clone and m
 First clone the repository including the submodule:
 
 ```bash
-git clone --recursive https://github.com/Lauszus/FaceRecognitionApp.git
+git clone --recursive https://github.com/jamenenedez/people-recognizer.git
 ```
 
 If you have already cloned the project, then please run the following command in order to initialize the submodule:
