@@ -133,7 +133,7 @@ public class FaceRecognitionAppActivity extends AppCompatActivity implements Cam
         for (int i = 0; i < images.size(); i++)
             images.get(i).copyTo(imagesMatrix.col(i)); // Create matrix where each image is represented as a column vector
 
-       // Log.i(TAG, "Images height: " + imagesMatrix.height() + " Width: " + imagesMatrix.width() + " total: " + imagesMatrix.total());
+       //Log.i(TAG, "Images height: " + imagesMatrix.height() + " Width: " + imagesMatrix.width() + " total: " + imagesMatrix.total());
 
         // Train the face recognition algorithms in an asynchronous task, so we do not skip any frames
         if (useEigenfaces) {

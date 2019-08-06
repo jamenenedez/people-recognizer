@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
 import android.text.method.ScrollingMovementMethod;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -73,7 +74,6 @@ public class MoreInfoActivity extends AppCompatActivity {
                     words += "<ul>\n";
                     for (Element element : e.select("div.st")) {
                         int b = element.text().indexOf(person);
-                        System.out.println(b);
                         if (b != -1) {
                             foundData++;
                         }
